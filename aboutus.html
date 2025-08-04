@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "We do our best to make it easy for you to find all the information about a case, photos, court documents, and weekly updates!";
+}
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Stop True Crime - About Us</title>
@@ -21,9 +27,15 @@
             </ul>
         </nav>
         <main>
-            <h2>About Us</h2>
-            <p>We created a blog for interesting popular true crime cases, whether current or recently solved. Our page is dedicated to all the true crime junkies and internet sleuths who  are obsessed with treu crime cases. We do our best to make it easy for you to find all the information about a case, photos, court documents, and weekly updates!</p>
+<h2>About Us</h2>
+
+<p id="demo">We created a blog for interesting popular true crime cases, whether current or recently solved. Our page is dedicated to all the true crime junkies and internet sleuths who  are obsessed with true crime cases.</p>
+
+<button type="button" onclick="myFunction()">Click for more</button>
+
+                       
             <img src="truecrime1.jpg" alt="True Crime Junkies">
+
         </main>
         <footer>
             <nav>
