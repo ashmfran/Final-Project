@@ -1,9 +1,76 @@
+onestoptruecrime.css
+
 body {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-   border: 2px solid red;
-   background-color:red;
-   padding: 10px;
+#wrapper {
+    width: 500%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('truecrime.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    color: #f0f0f0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 800px) {
+    #wrapper {
+        width: 80%;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        padding: 10px 20px;
+    }
 }
